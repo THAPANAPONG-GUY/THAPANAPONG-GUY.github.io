@@ -9,7 +9,7 @@ import isisapp from './assets/isisapp.png'
 
 <template>
   <nav class="fixed top-0 w-full z-50 glass-nav">
-      <div class="max-w-7xl px-10 h-20 flex justify-between items-center">
+      <div class="max-w-5xl px-10 h-20 flex justify-between items-center">
           <span class="font-headline font-black text-2xl tracking-tighter text-on-background uppercase">PORTFOLIO</span>
           <div class="md:flex items-center space-x-12">
               <a class="font-headline text-sm font-extrabold tracking-tight text-primary border-b-2 border-primary pb-1" href="#">Home</a>
@@ -141,9 +141,9 @@ import isisapp from './assets/isisapp.png'
                       </div>
                   </div>
               </div>
-              <div class="col-span-12 lg:col-span-5 flex flex-col gap-12">
-                  <div class="relative group">
-                      <div class="aspect-square bg-on-surface rounded-xl overflow-hidden p-12 flex flex-col justify-between">
+              <div class="w-full md:w-[400px] col-span-12 lg:col-span-5 flex flex-col gap-6 md:gap-8">
+                <div class="relative group">
+                    <div class="h-full bg-on-surface rounded-xl overflow-hidden p-6 md:p-12 flex flex-col justify-between min-h-[350px] lg:aspect-square">
                           <h3 class="font-headline text-2xl font-extrabold text-surface">Beyond the Canvas</h3>
                           <div class="space-y-8">
                               <div class="flex items-center gap-6 group/item">
