@@ -3,14 +3,15 @@ import { ref } from 'vue'
 import mypicport from './assets/mypicport.jpg'
 import cardbotcare from './assets/cardbotcare.png'
 import botnoi from './assets/botnoi.png'
+import isisapp from './assets/isisapp.png'
 
 </script>
 
 <template>
   <nav class="fixed top-0 w-full z-50 glass-nav">
-      <div class="max-w-7xl text-left px-10 h-20 flex justify-between items-center">
+      <div class="max-w-7xl px-10 h-20 flex justify-between items-center">
           <span class="font-headline font-black text-2xl tracking-tighter text-on-background uppercase">PORTFOLIO</span>
-          <div class=" md: items-center space-x-12">
+          <div class="md:flex items-center space-x-12">
               <a class="font-headline text-sm font-extrabold tracking-tight text-primary border-b-2 border-primary pb-1" href="#">Home</a>
               <a class="font-headline text-sm font-bold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#about">About Me</a>
               <a class="font-headline text-sm font-bold tracking-tight text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#contact">Contact</a>
@@ -104,10 +105,10 @@ import botnoi from './assets/botnoi.png'
                   <div class="mb-16">
                       <h3 class="font-headline text-2xl font-extrabold text-on-surface mb-6">Profile</h3>
                       <p class="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
-                          I’m a <span class="text-primary font-bold italic">UX/UI designer</span> who loves turning ideas into clean, easy-to-use experiences. I enjoy mixing creativity with logic—designing interfaces that not only look good but actually work.
+                          I’m a <span class="text-primary font-bold italic">UX/UI designer</span> who loves turning ideas into clean, easy-to-use experiences. I enjoy mixing creativity with logic-designing interfaces that not only look good but actually work.
                       </p>
                       <p class="font-body text-lg text-on-surface-variant leading-relaxed">
-                          From building quirky physics-based games to exploring business ideas, I like solving real problems and making things feel simple for users. I’m especially interested in designing for everyday people—making digital experiences smoother, clearer, and more enjoyable. 
+                          From building quirky physics-based games to exploring business ideas, I like solving real problems and making things feel simple for users. I’m especially interested in designing for everyday people making digital experiences smoother, clearer, and more enjoyable. 
                       </p>
                   </div>
                   <div class="space-y-12">
@@ -130,7 +131,7 @@ import botnoi from './assets/botnoi.png'
                               </div>
                           </div>-->
                           <div class="flex-1 flex-row md:flex-col md:items-start gap-2 md:gap-8 group border-t border-outline-variant/20 pt-10">
-                              <span class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant min-w-[120px] pt-1">06/2566 - 08/2566</span>
+                              <span class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant min-w-[120px] pt-1">06/2566 — 08/2566</span>
                               <div>
                                   <h4 class="font-headline text-xl font-bold text-on-surface mb-1 group-hover:text-primary transition-colors">Waiter(Part - time)</h4>
                                   <p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant mb-3">The chocolate factory • bkk</p>
@@ -247,6 +248,18 @@ import botnoi from './assets/botnoi.png'
                   <p class="font-body text-left text-sm text-on-surface-variant mb-6"> Developed skills in UI design and UX research through real-world projects. Supported team members and contributed to user-centered design solutions.</p>
                   <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
                       <a href="https://drive.google.com/file/d/1n4WVr_Ewy8RPKuMQt2PWhX8lz6NIETDX/view?usp=sharing" target="_blank" class="...">View Project <span class="material-symbols-outlined text-xs">north_east</span></a>
+                  </button>
+                </div>
+
+                <div class="group">
+                  <div class="relative aspect-[5/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+                    <img alt="BotNoi" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="isisapp" />
+                    <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">ISIS APP</h3>
+                  <p class="font-body text-left text-sm text-on-surface-variant mb-6">The ISIS application is designed to support caregivers and guardians by collecting user-input health data such as heart rate, body temperature, blood pressure, and more. This data is then used to predict health conditions and assess potential future health risks.</p>
+                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
+                      <a href="https://drive.google.com/file/d/1n6_oYXt_A8cEy2D0-AAJJo5s0kVLU4o3/view?usp=sharing" target="_blank" class="...">View Project <span class="material-symbols-outlined text-xs">north_east</span></a>
                   </button>
                 </div>
               <!--<div class="group">
