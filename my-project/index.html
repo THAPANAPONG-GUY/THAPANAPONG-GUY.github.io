@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Inter:wght@300..700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#e2dfde",
+                        "surface-container-highest": "#e5e2e1",
+                        "secondary-fixed": "#e5e2e1",
+                        "on-tertiary-fixed": "#3b0900",
+                        "on-primary-fixed-variant": "#0039b3",
+                        "on-surface-variant": "#434656",
+                        "primary": "#0041c8",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "tertiary-fixed-dim": "#ffb5a0",
+                        "surface-container-high": "#ebe7e7",
+                        "tertiary-fixed": "#ffdbd1",
+                        "outline": "#737688",
+                        "surface-variant": "#e5e2e1",
+                        "surface": "#fcf9f8",
+                        "surface-tint": "#004dea",
+                        "on-secondary-fixed-variant": "#474746",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#fcf9f8",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "on-tertiary-fixed-variant": "#872100",
+                        "inverse-surface": "#313030",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#e3e6ff",
+                        "on-background": "#1c1b1b",
+                        "background": "#fcf9f8",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed": "#001551",
+                        "surface-container": "#f0edec",
+                        "primary-fixed-dim": "#b6c4ff",
+                        "on-secondary-container": "#636262",
+                        "tertiary-container": "#c13301",
+                        "on-surface": "#1c1b1b",
+                        "on-error": "#ffffff",
+                        "outline-variant": "#c3c5d9",
+                        "tertiary": "#972500",
+                        "primary-container": "#0055ff",
+                        "surface-dim": "#dcd9d9",
+                        "secondary": "#5f5e5e",
+                        "inverse-primary": "#b6c4ff",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#ffe1d9",
+                        "inverse-on-surface": "#f3f0ef",
+                        "primary-fixed": "#dce1ff"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+  </head>
+  <body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
