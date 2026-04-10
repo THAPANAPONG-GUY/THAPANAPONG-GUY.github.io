@@ -1,5 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import { ref } from 'vue'
 import mypicport from './assets/mypicport.jpg'
 import cardbotcare from './assets/cardbotcare.png'
