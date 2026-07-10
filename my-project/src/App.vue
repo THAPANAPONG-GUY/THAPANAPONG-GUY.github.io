@@ -6,7 +6,7 @@ import botnoi from './assets/botnoi.png'
 import isisapp from './assets/isisapp.png'
 import genscript from './assets/genscript.jpg'
 import Defaultd from './assets/Defaultd.png'
-import Sample_MaxkyBas from './assets/Sample_MaxkyBas.jpg'
+import Sample_MaxkyBas from './assets/Sample_MaxkyBas.JPG'
 
 
 </script>
@@ -276,8 +276,8 @@ import Sample_MaxkyBas from './assets/Sample_MaxkyBas.jpg'
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10" id="work">
   
-                <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
-                    <div>
+                <div class="group flex-grow flex-col  bg-surface-container-low p-6 rounded-xl">
+                    <div class="flex flex-col justify-between">
                     
                     <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
                         <img alt="cardbotcare" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="cardbotcare" />
@@ -290,13 +290,11 @@ import Sample_MaxkyBas from './assets/Sample_MaxkyBas.jpg'
                     </p>
                     </div>
 
-                    <a href="https://drive.google.com/file/d/1wAQXbJuyarXx5WNtxTKMNzBMo1amu4-V/view?usp=sharing" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-auto">
+                    <a href="https://drive.google.com/file/d/1wAQXbJuyarXx5WNtxTKMNzBMo1amu4-V/view?usp=sharing" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-3">
                     View Project <span class="material-symbols-outlined text-xs">north_east</span>
                     </a>
 
-                    
-                        
-                    <!-- -->
+    
                 </div>
                 <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">   
 
