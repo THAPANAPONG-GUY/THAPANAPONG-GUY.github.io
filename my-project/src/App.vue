@@ -4,6 +4,10 @@ import mypicport from './assets/mypicport.jpg'
 import cardbotcare from './assets/cardbotcare.png'
 import botnoi from './assets/botnoi.png'
 import isisapp from './assets/isisapp.png'
+import genscript from './assets/genscript.jpg'
+import Defaultd from './assets/Defaultd.png'
+import Sample_MaxkyBas from './assets/Sample_MaxkyBas.jpg'
+
 
 </script>
 
@@ -94,7 +98,7 @@ import isisapp from './assets/isisapp.png'
           </div>
       </div>-->
 
-      <section class="py-32 px-10 max-w-7xl mx-auto" id="about">
+      <section class="py-32 px-10 max-w-7xl mx-auto" id="about" >
           <div class="mb-20">
               <span class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary mb-6 block">The Creative Journey</span>
               <h2 class="font-headline text-4xl lg:text-6xl font-extrabold tracking-tight text-on-surface text-left mb-8">Who am I ?  </h2>
@@ -198,7 +202,7 @@ import isisapp from './assets/isisapp.png'
                           <div class="space-y-4">
                               <div class="flex items-center gap-3">
                                   <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
-                                  <span class="text-sm font-headline font-bold">Figma & Adobe(Ai, Ps)</span><!-- #FF9A00-->
+                                  <span class="text-sm font-headline font-bold">UX Researcher</span><!-- #FF9A00-->
                               </div>
                               <div class="flex items-center gap-3">
                                   <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
@@ -208,91 +212,203 @@ import isisapp from './assets/isisapp.png'
                                   <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
                                   <span class="text-sm font-headline font-bold">Brand Identity</span>
                               </div>
+                              
                           </div>
+                      </div>
+                  </div>
+
+                  <div class="bg-surface-container-low p-10 rounded-xl border border-outline-variant/10">
+                      <h3 class="font-headline text-xl font-extrabold text-on-surface mb-8">Tools</h3>
+                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">Figma</span>
+                              </div>
+                          </div>
+
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">Adobe Ai & Ps</span>
+                              </div>
+                          </div>
+
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">Miro</span>
+                              </div>
+                          </div>
+
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">stitch AI</span>
+                              </div>
+                          </div>
+
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">VSCode</span>
+                              </div>
+                          </div>
+
+                          <div class="space-y-4">
+                              <div class="flex items-center gap-3">
+                                  <span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                                  <span class="text-sm font-headline font-bold">Microsoft</span>
+                              </div>
+                          </div>
+
+
                       </div>
                   </div>
               </div>
           </div>
       </section>
-
       <section class="py-8 px-10 max-w-7xl mx-auto bg-surface-container-lowest">
           <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
               <div class="max-w-2xl">
-        
                   <h2 class="font-headline text-4xl lg:text-5xl font-extrabold tracking-tight text-on-surface">Curated Works</h2>
               </div>
-              <!-- <a class="font-label text-xs font-bold uppercase tracking-widest text-on-surface hover:text-primary transition-colors flex items-center gap-2 group" href="#">
-                  View All Projects
-                  <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-              </a>-->
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10" id="work">
-              <div class="group">
-                  <div class="relative aspect-[5/5] overflow-hidden rounded-xl bg-surface-container-low mb-6 p-8">
-                    <img alt="cardbotcare" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="cardbotcare" />
-                    <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </div>
-                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">BotCare</h3>
-                  <p class="font-body text-left text-sm text-on-surface-variant mb-6"> Conducted research and designed the user interface for an AI Voice application tailored to support elderly users.</p>
-                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
-                      <a href="https://drive.google.com/file/d/1wAQXbJuyarXx5WNtxTKMNzBMo1amu4-V/view?usp=drive_link" target="_blank" class="...">View Project <span class="material-symbols-outlined text-xs">north_east</span></a>
-                  </button>
-                </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10" id="work">
+  
+                <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
+                    <div>
+                    
+                    <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
+                        <img alt="cardbotcare" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="cardbotcare" />
+                        <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    </div>
 
-                <div class="group">
-                  <div class="relative aspect-[5/5] overflow-hidden rounded-xl bg-surface-container-low mb-6 p-8">
-                    <img alt="BotNoi" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="botnoi" />
-                    <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </div>
-                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">BotNoi</h3>
-                  <p class="font-body text-left text-sm text-on-surface-variant mb-6"> Developed skills in UI design and UX research through real-world projects. Supported team members and contributed to user-centered design solutions.</p>
-                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
-                      <a href="https://drive.google.com/file/d/1n4WVr_Ewy8RPKuMQt2PWhX8lz6NIETDX/view?usp=sharing" target="_blank" class="...">View Project <span class="material-symbols-outlined text-xs">north_east</span></a>
-                  </button>
-                </div>
+                    <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">Botcare</h3>
+                    <p class="font-body text-left text-sm text-on-surface-variant mb-6">
+                        Conducted research and designed the user interface for an AI Voice application tailored to support elderly users.
+                    </p>
+                    </div>
 
-                <div class="group">
-                  <div class="relative aspect-[5/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
-                    <img alt="BotNoi" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="isisapp" />
-                    <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <a href="https://drive.google.com/file/d/1wAQXbJuyarXx5WNtxTKMNzBMo1amu4-V/view?usp=sharing" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-auto">
+                    View Project <span class="material-symbols-outlined text-xs">north_east</span>
+                    </a>
+
+                    
+                        
+                    <!-- -->
                 </div>
-                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">ISIS APP</h3>
-                  <p class="font-body text-left text-sm text-on-surface-variant mb-6">The ISIS application is designed to support caregivers and guardians by collecting user-input health data such as heart rate, body temperature, blood pressure, and more. This data is then used to predict health conditions and assess potential future health risks.</p>
-                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
-                      <a href="https://drive.google.com/file/d/1n6_oYXt_A8cEy2D0-AAJJo5s0kVLU4o3/view?usp=sharing" target="_blank" class="...">View Project <span class="material-symbols-outlined text-xs">north_east</span></a>
-                  </button>
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">   
+
+                    <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
+                        <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
+                                    <img alt="Botnoi" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="Sample_MaxkyBas" />
+                                <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                                </div>
+
+                                            <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">My Doodling Art</h3>
+                                <p class="font-body text-left text-sm text-on-surface-variant mb-6">
+                                    This is a digital artwork I created for fun and relaxation. It's also a hobby that I truly love.
+                                </p>
+
+                                <a href="https://drive.google.com/drive/folders/1N08b6zKHKXAA6AKtWnJ3Nyum726ah_ia?usp=drive_link" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-auto">
+                                View Project <span class="material-symbols-outlined text-xs">north_east</span>
+                                </a>
+                        </div>
+
+                    </div>
+                    
+
                 </div>
-              <!--<div class="group">
-                  <div class="relative aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
-                      <img alt="Digital Experience Project" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo5ABBo2PrFAciOnPJ1ia0dDPxzv5KR0gJy1VQuTcKsQHmuRX5VjhHotf9n6zbstEum5JyTZK8tAURi_okT2ce8F3vAe4-rq-NoZMrQ141BhueOQgASGw8voF7RaDzDOui0aA655R8iMpTQot266G0XV0v-Klq2_tiRL5v-4pOt1kKphRfd4o-qlF_2lSi5UqhJICY7qlgwhL-4oebAWM7VXdaccAmH_hFe5YmdlwZQlg20JuilLDVCzQjhlsmR5VPnqYe0zTkBBGT" />
-                      <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  </div>
-                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">Digital Experience</h3>
-                  <p class="font-body text-sm text-on-surface-variant mb-6">A immersive web sanctuary for architectural preservationists.</p>
-                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
-                      View Project <span class="material-symbols-outlined text-xs">north_east</span>
-                  </button>
-              </div>
-              <div class="group">
-                  <div class="relative aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
-                      <img alt="Editorial Design Project" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSPIh6QQDhazyIkHGiX-F-i1fnE4vvy_C5-bG32fcVroNxBSgOthKVsVRO-NnqI6wKGi77Gt7-gjzMd7cS3MxBijr3PEbTJaNlV4pEA2XuA3t7XQ48TF7SNdfgScmecZrmuoR0QhlH9YFbHpC6IsMC3Cyj4DwakpaqzzWWyekjjdhXUEowUUAD3I6_PxhItDKiI_hdkS3L5lnuYsl4UL0UdlRHr0xanC9wS4mVyZLqTtBwfeNAwZP5wIAMTU-3kKNYj65vJ6POKUvO" />
-                      <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  </div>
-                  <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">Editorial Design</h3>
-                  <p class="font-body text-sm text-on-surface-variant mb-6">Curated layout systems for biannual luxury lifestyle journals.</p>
-                  <button class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2">
-                      View Project <span class="material-symbols-outlined text-xs">north_east</span>
-                  </button>
-              </div>-->
-          </div>
+                
       </section>
+
+<section id="work" class="py-8 px-10 max-w-7xl mx-auto bg-surface-container-lowest scroll-mt-10">
+  
+  <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+    <div class="max-w-2xl">
+      <h2 class="font-headline text-4xl lg:text-5xl font-extrabold tracking-tight text-on-surface">My work at IBOTNOI</h2>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+
+    <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
+      <div>
+        <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
+          <img alt="Botnoi" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="botnoi" />
+          <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </div>
+        
+        <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">Botnoi</h3>
+        <p class="font-body text-left text-sm text-on-surface-variant mb-6">
+          Developed skills in UI design and UX research through real-world projects. Supported team members and contributed to user-centered design solutions.
+        </p>
+      </div>
+
+      <a href="https://drive.google.com/file/d/1n4WVr_Ewy8RPKuMQt2PWhX8lz6NIETDX/view?usp=sharing" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-auto">
+        View Project <span class="material-symbols-outlined text-xs">north_east</span>
+      </a>
+    </div>
+
+
+    <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
+      <div>
+        <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
+          <img alt="Genscript" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="Defaultd" />
+          <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </div>
+
+        <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">Botnoi x Canva</h3>
+        <p class="font-body text-left text-sm text-on-surface-variant mb-6">
+          This Project I designed the UI for the Botnoi X Canva project using Canva's Design System, collaborating directly with the Front-End team.
+        </p>
+
+        <a href="https://drive.google.com/file/d/1n4WVr_Ewy8RPKuMQt2PWhX8lz6NIETDX/view?usp=sharing" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-auto">
+        View Project <span class="material-symbols-outlined text-xs">north_east</span>
+      </a>
+
+      </div>
+    </div>
+
+  </div> 
+  </section>
+
+<section id="work" class="py-16 px-6 max-w-7xl mx-auto bg-surface-container-lowest scroll-mt-10">  
+  <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+              <div class="max-w-2xl">
+                  <h2 class="font-headline text-4xl lg:text-5xl font-extrabold tracking-tight text-on-surface">My Achievements</h2>
+              </div>
+          </div>
+      
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="group flex flex-col justify-between bg-surface-container-low p-6 rounded-xl">
+      <div>
+        <div class="relative aspect-[5/5] overflow-hidden rounded-xl mb-6">
+          <img alt="cardbotcare" class="w-full h-full object-center object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 mix-blend-multiply" :src="isisapp" />
+          <div class="absolute inset-0 bg-on-surface/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </div>
+
+        <h3 class="font-headline text-xl font-extrabold text-on-surface mb-2">ISIS App</h3>
+        <p class="font-body text-left text-sm text-on-surface-variant mb-6">
+          The ISIS application is designed to support caregivers and guardians by collecting user input health data such as heart reate, body temperature, blood pressure, and more. This data is then
+          used to predict health conditions and assess potential future health risks. 
+        </p>
+      </div>
+
+      <a href="https://drive.google.com/file/d/1n6_oYXt_A8cEy2D0-AAJJo5s0kVLU4o3/view?usp=drive_link" target="_blank" class="font-label text-[10px] font-bold uppercase tracking-[0.2em] text-primary hover:text-on-surface transition-colors flex items-center gap-2 mt-4">
+        View Project <span class="material-symbols-outlined text-xs">north_east</span>
+      </a>
+    </div>
+    </div>
+</section>
   </main>
 
   <footer class="w-full mt-10 px-4 md:px-0" id="contact">
     <div class="bg-[#0055FF] text-white rounded-3xl px-8 py-10 md:px-12 md:py-14 flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
 
         <div class="flex flex-col items-start gap-4">
-            <span class="font-headline font-bold text-lg text-white text-left tracking-wider">PORTFOLIO</span>
+
             <div class="flex flex-col gap-3">
                 <h2 class="text-xl md:text-[2.75rem] text-white font-bold tracking-tight">Explore & Connect</h2>
                 <div class="flex gap-6 md:gap-8 text-xl md:text-2xl mt-2 font-medium">
@@ -304,14 +420,14 @@ import isisapp from './assets/isisapp.png'
         </div>
           
         <div class="flex flex-row flex-wrap md:flex-nowrap gap-6 md:gap-8 text-xs md:text-sm font-semibold tracking-[0.15em] uppercase">
-            <a href="#" class="hover:text-white/70 transition-colors duration-300">LinkedIn</a>
-            <a href="#" class="hover:text-white/70 transition-colors duration-300">Dribbble</a>
-            <a href="#" class="hover:text-white/70 transition-colors duration-300">Instagram</a>
+            <a href="https://www.linkedin.com/in/thapanapong-mungsuwan-3569552b4/" class="hover:text-white/70 transition-colors duration-300">LinkedIn</a>
+  
+            <a href="https://www.instagram.com/gaa_poii?igsh=MW4xbXZwb3R1aGowMg%3D%3D" class="hover:text-white/70 transition-colors duration-300">Instagram</a>
             <a href="mailto:thapanapong@gmail.com" class="hover:text-white/70 transition-colors duration-300">Email</a>
         </div>
 
     </div>
-</footer>
+</footer> 
 </template>
 
 <style>
